@@ -1,4 +1,6 @@
-create table customers 
+--liquibase format sql
+--changeset authorname:pirumovda
+ create table customers
 (id serial primary key, 
 name varchar (255), 
 surname varchar (255), 
